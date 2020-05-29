@@ -4,7 +4,7 @@ import javax.faces.bean.ManagedBean;
 import javax.servlet.http.HttpServlet;
 
 @ManagedBean(name = "pessoaBean")
-public class PessoaBean extends HttpServlet{
+public class PessoaBean extends HttpServlet {
 
 	/**
 	 * 
@@ -28,5 +28,4 @@ public class PessoaBean extends HttpServlet{
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
 	}
-
 }
